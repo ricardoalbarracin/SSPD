@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mSlDgqxGkGC7Gr8DyMuLhzifyFWQfgFK94qQHgWQYEk=",
+  "Source": "ApiSSPD",
+  "BasePath": "_content/ApiSSPD",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
