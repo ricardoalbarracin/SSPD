@@ -16,6 +16,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<LamiaDbContext>(options => options.UseOracle(configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Scoped);
 builder.Services.AddTransient<IViewAcuRedesRepository, ViewAcuRedesRepository>();
+builder.Services.AddTransient<IViewRedesAlcantarilladoRepository, ViewRedesAlcantarilladoRepository>();
+builder.Services.AddTransient<IViewTratamientosAguasResidualesRepository, ViewTratamientosAguasResidualesRepository>();
 
 
 var app = builder.Build();
